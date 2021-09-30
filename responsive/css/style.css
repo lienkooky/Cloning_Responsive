@@ -588,6 +588,33 @@ body {
   height: 100%;
 }
 
+/* footer */
+.footer {
+  text-align: center;
+  padding: 30px 50px;
+}
+.footer li {
+  display: inline-block;
+  padding: 0 7px 0 10px;
+  white-space: nowrap;
+  position: relative;
+}
+.footer li::before {
+  content: '';
+  width: 1px;
+  height: 12px;
+  background-color: #dbdbdb;
+  position: absolute;
+  left: 0;
+  top: 4px;
+}
+.footer li:first-child::before {
+  width: 0;
+}
+.footer address {
+  padding-top: 15px;
+}
+
 /* media query */
 
 /* width 0 ~ 1220px */
